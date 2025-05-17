@@ -1,0 +1,9 @@
+services:
+  build-service:
+    build:
+      dockerfile: docker/Dockerfile
+      context: .
+    volumes:
+      - ./output/build:/opentom/build
+      - ./output/opentom:/opentom/opentom_dist
+    command: build

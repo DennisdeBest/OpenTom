@@ -1,0 +1,5 @@
+arm-sysroot
+logs
+initramfs
+gcc-3.3.4_glibc-2.3.2
+output

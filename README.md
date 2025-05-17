@@ -27,6 +27,16 @@ Before proceeding, it is recommended to backup the original contents of your GPS
 
 *...you can continue compiling by executing `linux32 make`*
 
+### Using Docker
+
+To run the build in the docker container you can run :
+
+```shell
+docker compose run build-service
+```
+
+The files will be in the `output` dir of the root directory.
+
 ## How to build extra applications
 
 - Run `make extra` and copy the files as described above
